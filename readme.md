@@ -1,3 +1,12 @@
+# 使い方
+
+```
+bash ./get-availability-html.sh
+source .env
+export PGHOST PGPORT PGDATABASE PGUSER PGPASSWORD
+node import_courts.js #DB INSERT
+```
+
 # メモ
 
 ## 検索用SQL
