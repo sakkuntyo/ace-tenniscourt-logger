@@ -47,3 +47,6 @@ ORDER BY
   court_name,
   range_start;
 ```
+
+<img width="739" height="712" alt="image" src="https://github.com/user-attachments/assets/e5e3570a-0943-4447-acce-6ee241486da6" />
+
