@@ -11,3 +11,10 @@ services:
       PGUSER: ${PGUSER}
       PGPASSWORD: ${PGPASSWORD}
     restart: unless-stopped
+    networks:
+      - app
+
+networks:
+  app:
+    external: true
+    name: app
