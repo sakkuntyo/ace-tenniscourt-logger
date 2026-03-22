@@ -24,4 +24,6 @@ RUN chmod 0644 /etc/cron.d/ace-tenniscourt-logger && crontab /etc/cron.d/ace-ten
 
 RUN touch /var/log/cron.log
 
-CMD ["cron", "-f"]
+COPY docker/entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+CMD ["/entrypoint.sh"]
