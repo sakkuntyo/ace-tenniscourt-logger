@@ -9,6 +9,11 @@ export PGHOST PGPORT PGDATABASE PGUSER PGPASSWORD
 node import_courts.js #DB INSERT
 ```
 
+# 動作確認環境
+Ubuntu 24
+Nodejs 24
+PostgreSQL 18
+
 # メモ
 
 ## 検索用SQL
