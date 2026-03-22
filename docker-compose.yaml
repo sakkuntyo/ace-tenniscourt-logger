@@ -1,7 +1,0 @@
-services:
-  ace-tenniscourt-logger:
-    build: .
-    container_name: ace-tenniscourt-logger
-    env_file:
-      - .env
-    restart: unless-stopped
