@@ -1,0 +1,13 @@
+services:
+  ace-tenniscourt-logger:
+    build: .
+    container_name: ace-tenniscourt-logger
+    environment:
+      ACE_USER: ${ACE_USER}
+      ACE_PASSWORD: ${ACE_PASSWORD}
+      PGHOST: ${PGHOST}
+      PGPORT: ${PGPORT:-5432}
+      PGDATABASE: ${PGDATABASE}
+      PGUSER: ${PGUSER}
+      PGPASSWORD: ${PGPASSWORD}
+    restart: unless-stopped
