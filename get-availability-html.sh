@@ -1,6 +1,6 @@
 #!/bin/bash
-
-source .env
+set -euo pipefail
+#source .env
 
 # =========================
 # ログイン
